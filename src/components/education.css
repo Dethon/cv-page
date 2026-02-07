@@ -1,0 +1,41 @@
+/* Education list */
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Education cards */
+.education-card {
+  padding: 1.5rem;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.education-degree {
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.education-institution {
+  font-size: 1rem;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.education-period {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+  .education-list {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
