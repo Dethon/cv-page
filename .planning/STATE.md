@@ -5,22 +5,22 @@
 See: .planning/PROJECT.md (updated 2026-02-07)
 
 **Core value:** Visitors immediately understand who Juan Francisco is as an engineer — his breadth of experience, technical depth, and the quality of his work — and can easily reach out or explore further.
-**Current focus:** Phase 3: Core Content
+**Current focus:** Phase 4: Showcase & Interaction
 
 ## Current Position
 
-Phase: 3 of 5 (Core Content)
-Plan: 3 of 3 complete
-Status: Phase complete
-Last activity: 2026-02-07 — Completed 03-03-PLAN.md
+Phase: 4 of 5 (Showcase & Interaction)
+Plan: 1 of 3 complete
+Status: In progress
+Last activity: 2026-02-07 — Completed 04-01-PLAN.md
 
-Progress: [███████░░░] 70%
+Progress: [████████░░] 80%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 7
-- Average duration: 7 min
+- Total plans completed: 8
+- Average duration: 6 min
 - Total execution time: 1.0 hours
 
 **By Phase:**
@@ -30,10 +30,11 @@ Progress: [███████░░░] 70%
 | 1 | 1 | 5 min | 5 min |
 | 2 | 3 | 42 min | 14 min |
 | 3 | 3 | 4 min | 1.3 min |
+| 4 | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-03 (38 min), 03-01 (2 min), 03-02 (1 min), 03-03 (1 min)
-- Trend: Fast execution on autonomous plans, checkpoints add time
+- Last 5 plans: 03-01 (2 min), 03-02 (1 min), 03-03 (1 min), 04-01 (2 min)
+- Trend: Excellent velocity on autonomous plans, sub-5 minute execution consistently
 
 *Updated after each plan completion*
 
@@ -66,6 +67,10 @@ Recent decisions affecting current work:
 - Ordered list (ol) for chronological data semantics — Timeline uses semantic HTML for experience data (03-02)
 - Multi-role companies show all roles under single company heading — Border separator between roles (03-02)
 - CSS-only timeline layout without JavaScript — Static presentation, no animations until Phase 5 (03-02)
+- 5 curated projects based on CV experience — Placeholder content easily updatable by user (04-01)
+- CSS Grid auto-fit with responsive minmax — Fluid responsive behavior without explicit media query column counts (04-01)
+- @media (hover: hover) for mobile-safe hover effects — Prevents sticky hover state on touch devices (04-01)
+- Force-added cv.pdf to git despite public/ gitignore — Static asset should be version-controlled (04-01)
 
 ### Pending Todos
 
@@ -77,6 +82,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-07T04:47:52Z
-Stopped at: Completed 03-03-PLAN.md — Skills and Education sections
+Last session: 2026-02-07T05:16:04Z
+Stopped at: Completed 04-01-PLAN.md — Project showcase with responsive card grid
 Resume file: None
