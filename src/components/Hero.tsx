@@ -1,14 +1,21 @@
+import { personalInfo } from '../data/cv-content';
 import './sections.css';
+import './hero.css';
 
 export function Hero() {
   return (
-    <section id="hero" className="section section--hero">
+    <section id="hero" className="section section--hero" aria-label="Introduction">
       <div className="container">
-        <h1>Juan Francisco Crespo Galan</h1>
-        <p className="subtitle">Senior Software Engineer</p>
-        <p>
-          Welcome to my professional portfolio. Explore my experience, skills, and projects below.
-        </p>
+        <div className="hero-content">
+          <div className="hero-photo">
+            <div className="hero-avatar">JFC</div>
+          </div>
+          <div className="hero-text">
+            <h1>{personalInfo.name}</h1>
+            <p className="subtitle">{personalInfo.title}</p>
+            <p className="hero-summary">{personalInfo.summary}</p>
+          </div>
+        </div>
       </div>
     </section>
   );
