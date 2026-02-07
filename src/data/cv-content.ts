@@ -1,6 +1,6 @@
 // All CV content as typed data
 
-import type { PersonalInfo, ExperienceEntry, SkillCategory, EducationEntry } from '../types/content';
+import type { PersonalInfo, ExperienceEntry, SkillCategory, EducationEntry, ProjectEntry } from '../types/content';
 
 export const personalInfo: PersonalInfo = {
   name: "Juan Francisco Crespo Galan",
@@ -8,7 +8,8 @@ export const personalInfo: PersonalInfo = {
   summary: "I'm a software engineer and developer with more than ten years of professional experience. Passionate about all kinds of technology, but especially interested in software design, parallelism, and optimization in 'close to the metal' languages. I have worked with a remarkably diverse technological stack: from C in embedded systems, to full stack web development, digital signal processing, some videogame development and, more recently, machine learning. I pride myself on being able to learn most languages and frameworks in a truly short amount of time and provide efficient solutions to any kind of problem.",
   location: "Spain",
   email: "JF_Crespo@outlook.es",
-  linkedin: "https://www.linkedin.com/in/jfcrespo5"
+  linkedin: "https://www.linkedin.com/in/jfcrespo5",
+  github: "https://github.com/dethon"
 };
 
 export const experiences: ExperienceEntry[] = [
@@ -172,5 +173,39 @@ export const education: EducationEntry[] = [
     institution: "Universidad de Salamanca",
     startYear: "2008",
     endYear: "2013"
+  }
+];
+
+export const projects: ProjectEntry[] = [
+  {
+    title: "ML Data Processing Pipeline",
+    description: "Distributed data processing system for enforcing quality standards across ML workflows. Built event-driven architecture for real-time process visibility and automated quality checks at scale.",
+    technologies: ["Python", "Apache Spark", "Azure Databricks", "Docker", "Machine Learning"],
+    githubUrl: "https://github.com/dethon"
+  },
+  {
+    title: "Spatial Audio Engine",
+    description: "High-performance spatial audio processing library implementing 3D sound convolution algorithms. Contributed to Audaspace/Blender with C++ core and Python bindings for real-time audio manipulation.",
+    technologies: ["C++", "Python", "Digital Signal Processing", "Blender"],
+    githubUrl: "https://github.com/dethon"
+  },
+  {
+    title: "Financial Orchestration Platform",
+    description: "Microservices-based financial software achieving 10x throughput increase through optimized orchestration flows. Led full-stack development with focus on performance and reliability.",
+    technologies: ["Java", "Spring", "React", "TypeScript", "Kubernetes", "Azure"],
+    githubUrl: "https://github.com/dethon"
+  },
+  {
+    title: "Healthcare Management System",
+    description: "TDD-driven management system MVP for special needs care centers. Integrated independent projects with unified authentication and centralized dashboard.",
+    technologies: ["JavaScript", "Node.js", "React", "PostgreSQL", "Docker"],
+    githubUrl: "https://github.com/dethon"
+  },
+  {
+    title: "CV Portfolio Page",
+    description: "Responsive single-page CV portfolio built with React, TypeScript, and Vite. Features dark/light theme toggle, smooth scrolling navigation, and accessibility-first design deployed on GitHub Pages.",
+    technologies: ["React", "TypeScript", "Vite", "CSS Grid", "GitHub Pages"],
+    githubUrl: "https://github.com/dethon/cv-page",
+    demoUrl: "https://dethon.github.io/cv-page"
   }
 ];

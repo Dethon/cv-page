@@ -7,6 +7,7 @@ export interface PersonalInfo {
   location: string;
   email: string;
   linkedin: string;
+  github: string;
 }
 
 export interface Role {
@@ -32,6 +33,14 @@ export interface EducationEntry {
   institution: string;
   startYear: string;
   endYear: string;
+}
+
+export interface ProjectEntry {
+  title: string;
+  description: string;
+  technologies: string[];
+  githubUrl: string;
+  demoUrl?: string;
 }
 
 /**
