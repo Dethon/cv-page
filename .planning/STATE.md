@@ -9,18 +9,18 @@ See: .planning/PROJECT.md (updated 2026-02-07)
 
 ## Current Position
 
-Phase: 1 of 5 (Foundation & Deployment) — COMPLETE
-Plan: 1 of 1 in current phase
-Status: Phase complete
-Last activity: 2026-02-07 — Completed 01-01-PLAN.md (Foundation & Deployment)
+Phase: 2 of 5 (Layout & Navigation) — IN PROGRESS
+Plan: 1 of 6 in current phase
+Status: In progress
+Last activity: 2026-02-07 — Completed 02-01-PLAN.md (Theme Infrastructure)
 
-Progress: [██░░░░░░░░] 20%
+Progress: [████░░░░░░] 40%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 5 min
+- Total plans completed: 2
+- Average duration: 3.5 min
 - Total execution time: 0.1 hours
 
 **By Phase:**
@@ -28,10 +28,11 @@ Progress: [██░░░░░░░░] 20%
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1 | 1 | 5 min | 5 min |
+| 2 | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (5 min)
-- Trend: Baseline
+- Last 5 plans: 01-01 (5 min), 02-01 (2 min)
+- Trend: Accelerating
 
 *Updated after each plan completion*
 
@@ -48,6 +49,9 @@ Recent decisions affecting current work:
 - GitHub Pages deployment — Free, simple, already has GitHub account
 - Vite scaffold fallback (tmp-scaffold) — Non-empty directory required scaffold-then-move approach
 - GitHub Pages environment policy — Added `main` branch to deployment branch policies
+- CSS custom properties over CSS-in-JS — Better performance, works without JavaScript (02-01)
+- Inline FOUC prevention script — Prevents flash of wrong theme on load (02-01)
+- Simple hook over Context API — Sufficient for single theme state (02-01)
 
 ### Pending Todos
 
@@ -59,6 +63,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-07 (Phase 1 execution)
-Stopped at: Completed Phase 1 — Foundation & Deployment
+Last session: 2026-02-07 (Phase 2 execution)
+Stopped at: Completed 02-01-PLAN.md (Theme Infrastructure)
 Resume file: None
