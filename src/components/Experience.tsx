@@ -1,11 +1,20 @@
 import './sections.css';
 import './experience.css';
+import '../styles/animations.css';
 import { experiences } from '../data/cv-content';
 import { formatDate } from '../types/content';
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 export function Experience() {
+  const { ref, isVisible } = useIntersectionObserver();
+
   return (
-    <section id="experience" className="section" aria-labelledby="experience-heading">
+    <section
+      id="experience"
+      ref={ref as React.RefObject<HTMLElement>}
+      className={`section fade-in-up ${isVisible ? 'visible' : ''}`}
+      aria-labelledby="experience-heading"
+    >
       <div className="container">
         <h2 id="experience-heading">Experience</h2>
         <ol className="timeline">

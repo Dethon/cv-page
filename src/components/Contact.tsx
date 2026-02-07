@@ -3,10 +3,18 @@ import { MdEmail } from 'react-icons/md';
 import { personalInfo } from '../data/cv-content';
 import './sections.css';
 import './contact.css';
+import '../styles/animations.css';
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 export function Contact() {
+  const { ref, isVisible } = useIntersectionObserver();
+
   return (
-    <section id="contact" className="section contact-footer">
+    <section
+      id="contact"
+      ref={ref as React.RefObject<HTMLElement>}
+      className={`section contact-footer fade-in-up ${isVisible ? 'visible' : ''}`}
+    >
       <div className="container contact-content">
         <h2>Get in Touch</h2>
         <div className="contact-links">

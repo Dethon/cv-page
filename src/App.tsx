@@ -1,3 +1,4 @@
+import { SEOHead } from './components/SEOHead';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { Experience } from './components/Experience';
@@ -10,8 +11,10 @@ import './App.css';
 function App() {
   return (
     <>
+      <SEOHead />
+      <a href="#main-content" className="skip-link">Skip to main content</a>
       <Navigation />
-      <main>
+      <main id="main-content" role="main">
         <Hero />
         <Experience />
         <Skills />

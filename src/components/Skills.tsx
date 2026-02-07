@@ -1,10 +1,19 @@
 import { skillCategories } from '../data/cv-content';
 import './sections.css';
 import './skills.css';
+import '../styles/animations.css';
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 export function Skills() {
+  const { ref, isVisible } = useIntersectionObserver();
+
   return (
-    <section id="skills" className="section" aria-labelledby="skills-heading">
+    <section
+      id="skills"
+      ref={ref as React.RefObject<HTMLElement>}
+      className={`section fade-in-up ${isVisible ? 'visible' : ''}`}
+      aria-labelledby="skills-heading"
+    >
       <div className="container">
         <h2 id="skills-heading">Skills</h2>
         <div className="skills-grid">

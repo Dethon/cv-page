@@ -1,10 +1,18 @@
 import { projects } from '../data/cv-content';
 import './sections.css';
 import './projects.css';
+import '../styles/animations.css';
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 export function Projects() {
+  const { ref, isVisible } = useIntersectionObserver();
+
   return (
-    <section id="projects" className="section">
+    <section
+      id="projects"
+      ref={ref as React.RefObject<HTMLElement>}
+      className={`section fade-in-up ${isVisible ? 'visible' : ''}`}
+    >
       <div className="container">
         <h2>Projects</h2>
         <div className="projects-grid">

@@ -1,10 +1,11 @@
 import { personalInfo } from '../data/cv-content';
 import './sections.css';
 import './hero.css';
+import '../styles/animations.css';
 
 export function Hero() {
   return (
-    <section id="hero" className="section section--hero" aria-label="Introduction">
+    <section id="hero" className="section section--hero fade-in-up visible" aria-label="Introduction">
       <div className="container">
         <div className="hero-content">
           <div className="hero-photo">
