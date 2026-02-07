@@ -75,10 +75,11 @@ Plans:
   1. Curated project cards display with description, technology tags, GitHub links, and optional demo links
   2. User can download CV as PDF with single click
   3. Contact footer shows working links to email (JF_Crespo@outlook.es), LinkedIn, and GitHub with icons
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] TBD (planned during /gsd:plan-phase)
+- [ ] 04-01-PLAN.md — Data layer extensions, project card grid, react-icons install, and PDF setup
+- [ ] 04-02-PLAN.md — Contact footer with social icon links and CV download button
 
 ### Phase 5: Polish & Accessibility
 **Goal**: Professional quality with animations, SEO, and accessibility compliance
@@ -104,5 +105,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation & Deployment | 1/1 | Complete | 2026-02-07 |
 | 2. Layout & Navigation | 3/3 | Complete | 2026-02-07 |
 | 3. Core Content | 3/3 | Complete | 2026-02-07 |
-| 4. Showcase & Interaction | 0/TBD | Not started | - |
+| 4. Showcase & Interaction | 0/2 | Not started | - |
 | 5. Polish & Accessibility | 0/TBD | Not started | - |
