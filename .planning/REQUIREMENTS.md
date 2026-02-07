@@ -26,14 +26,14 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **SHOW-01**: Curated project cards with description, technology tags, GitHub link, and optional live demo link
 - [x] **SHOW-02**: Downloadable CV as PDF via one-click download button
 - [x] **SHOW-03**: Contact links footer with email (JF_Crespo@outlook.es), LinkedIn, and GitHub icons/links
-- [ ] **SHOW-04**: Subtle scroll-triggered animations (fade-in, slide-up) as sections enter viewport, respecting prefers-reduced-motion
+- [x] **SHOW-04**: Subtle scroll-triggered animations (fade-in, slide-up) as sections enter viewport, respecting prefers-reduced-motion
 
 ### Technical
 
 - [x] **TECH-01**: Responsive design working on mobile (320px+), tablet (768px+), and desktop (1200px+)
-- [ ] **TECH-02**: SEO meta tags including Open Graph, Twitter Cards, proper title, and description
+- [x] **TECH-02**: SEO meta tags including Open Graph, Twitter Cards, proper title, and description
 - [x] **TECH-03**: GitHub Actions workflow auto-deploying to GitHub Pages on push to main branch
-- [ ] **TECH-04**: Accessibility compliance — semantic HTML, keyboard navigation, color contrast (4.5:1), alt text, focus indicators
+- [x] **TECH-04**: Accessibility compliance — semantic HTML, keyboard navigation, color contrast (4.5:1), alt text, focus indicators
 
 ## v2 Requirements
 
@@ -84,12 +84,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SHOW-01 | Phase 4 | Complete |
 | SHOW-02 | Phase 4 | Complete |
 | SHOW-03 | Phase 4 | Complete |
-| SHOW-04 | Phase 5 | Pending |
+| SHOW-04 | Phase 5 | Complete |
 | TECH-01 | Phase 2 | Complete |
-| TECH-02 | Phase 5 | Pending |
+| TECH-02 | Phase 5 | Complete |
 | TECH-03 | Phase 1 | Complete |
-
-| TECH-04 | Phase 5 | Pending |
+| TECH-04 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 16 total

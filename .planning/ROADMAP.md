@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Layout & Navigation** - Responsive single-page structure with dark mode and navigation
 - [x] **Phase 3: Core Content** - Hero, experience timeline, skills, and education sections
 - [x] **Phase 4: Showcase & Interaction** - Projects, CV download, and contact links
-- [ ] **Phase 5: Polish & Accessibility** - Animations, SEO, accessibility, and performance optimization
+- [x] **Phase 5: Polish & Accessibility** - Animations, SEO, accessibility, and performance optimization
 
 ## Phase Details
 
@@ -93,9 +93,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 05-01-PLAN.md — Scroll-triggered fade-in/slide-up animations with IntersectionObserver hook
-- [ ] 05-02-PLAN.md — SEO meta tags with react-helmet-async and WCAG 2.2 AA accessibility compliance
-- [ ] 05-03-PLAN.md — Vite build optimization and production performance verification
+- [x] 05-01-PLAN.md — Scroll-triggered fade-in/slide-up animations with IntersectionObserver hook
+- [x] 05-02-PLAN.md — SEO meta tags with react-helmet-async and WCAG 2.2 AA accessibility compliance
+- [x] 05-03-PLAN.md — Vite build optimization and production performance verification
 
 ## Progress
 
@@ -108,4 +108,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Layout & Navigation | 3/3 | Complete | 2026-02-07 |
 | 3. Core Content | 3/3 | Complete | 2026-02-07 |
 | 4. Showcase & Interaction | 2/2 | Complete | 2026-02-07 |
-| 5. Polish & Accessibility | 0/3 | Not started | - |
+| 5. Polish & Accessibility | 3/3 | Complete | 2026-02-07 |
