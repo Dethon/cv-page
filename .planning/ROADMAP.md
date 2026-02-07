@@ -47,9 +47,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Theme system with dark/light CSS variables, useTheme hook, and FOUC prevention
-- [ ] 02-02-PLAN.md — Section placeholder components and responsive navigation with scroll-spy
-- [ ] 02-03-PLAN.md — App composition, custom 404 page, and visual verification
+- [x] 02-01-PLAN.md — Theme system with dark/light CSS variables, useTheme hook, and FOUC prevention
+- [x] 02-02-PLAN.md — Section placeholder components and responsive navigation with scroll-spy
+- [x] 02-03-PLAN.md — App composition, custom 404 page, and visual verification
 
 ### Phase 3: Core Content
 **Goal**: Personal and professional content sections populated with real data
@@ -100,7 +100,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deployment | 1/1 | Complete | 2026-02-07 |
-| 2. Layout & Navigation | 0/3 | Not started | - |
+| 2. Layout & Navigation | 3/3 | Not started | - |
 | 3. Core Content | 0/TBD | Not started | - |
 | 4. Showcase & Interaction | 0/TBD | Not started | - |
 | 5. Polish & Accessibility | 0/TBD | Not started | - |
