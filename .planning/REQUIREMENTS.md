@@ -87,7 +87,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SHOW-04 | Phase 5 | Pending |
 | TECH-01 | Phase 2 | Pending |
 | TECH-02 | Phase 5 | Pending |
-| TECH-03 | Phase 1 | Pending |
+| TECH-03 | Phase 1 | Complete |
 | TECH-04 | Phase 5 | Pending |
 
 **Coverage:**
