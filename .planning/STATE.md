@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-07)
 
 **Core value:** Visitors immediately understand who Juan Francisco is as an engineer — his breadth of experience, technical depth, and the quality of his work — and can easily reach out or explore further.
-**Current focus:** Phase 4: Showcase & Interaction
+**Current focus:** Phase 5: Polish & Accessibility
 
 ## Current Position
 
-Phase: 4 of 5 (Showcase & Interaction)
-Plan: 2 of 2 complete
-Status: Phase complete
-Last activity: 2026-02-07 — Phase 4 verified and complete
+Phase: 5 of 5 (Polish & Accessibility)
+Plan: 1 of 3 complete
+Status: In progress
+Last activity: 2026-02-07 — Completed 05-01-PLAN.md
 
-Progress: [█████████░] 90%
+Progress: [█████████░] 93%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 9
-- Average duration: 5 min
-- Total execution time: 1.0 hours
+- Total plans completed: 10
+- Average duration: 4.5 min
+- Total execution time: 1.05 hours
 
 **By Phase:**
 
@@ -31,9 +31,10 @@ Progress: [█████████░] 90%
 | 2 | 3 | 42 min | 14 min |
 | 3 | 3 | 4 min | 1.3 min |
 | 4 | 2 | 3 min | 1.5 min |
+| 5 | 1 | 1.7 min | 1.7 min |
 
 **Recent Trend:**
-- Last 5 plans: 03-02 (1 min), 03-03 (1 min), 04-01 (2 min), 04-02 (48 sec)
+- Last 5 plans: 03-03 (1 min), 04-01 (2 min), 04-02 (48 sec), 05-01 (1.7 min)
 - Trend: Excellent velocity on autonomous plans, sub-2 minute execution consistently
 
 *Updated after each plan completion*
@@ -73,6 +74,10 @@ Recent decisions affecting current work:
 - Force-added cv.pdf to git despite public/ gitignore — Static asset should be version-controlled (04-01)
 - Icon accessibility pattern with aria-label and aria-hidden — aria-label on anchor describes destination, aria-hidden on icon hides decorative SVG (04-02)
 - import.meta.env.BASE_URL for production paths — Resolves to /cv-page/ in production, / in dev for correct static asset URLs (04-02)
+- Hero section animations always visible — Above-the-fold content doesn't need scroll trigger (05-01)
+- Fade-in-up animation: 30px translateY with 0.6s duration — Balanced motion that feels polished without being overly dramatic (05-01)
+- prefers-reduced-motion: opacity-only fade with 0.3s duration — WCAG 2.3.3 compliance for users with vestibular disorders (05-01)
+- IntersectionObserver unobserves after animation — Animate-once pattern improves performance by stopping observation after completion (05-01)
 
 ### Pending Todos
 
@@ -84,6 +89,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-07T05:19:42Z
-Stopped at: Completed 04-02-PLAN.md — Contact footer with icon links and PDF download
+Last session: 2026-02-07T05:25:59Z
+Stopped at: Completed 05-01-PLAN.md — Scroll animations with IntersectionObserver and accessibility support
 Resume file: None
