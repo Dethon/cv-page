@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Deployment** - Project scaffolding with working GitHub Pages pipeline
 - [x] **Phase 2: Layout & Navigation** - Responsive single-page structure with dark mode and navigation
-- [ ] **Phase 3: Core Content** - Hero, experience timeline, skills, and education sections
+- [x] **Phase 3: Core Content** - Hero, experience timeline, skills, and education sections
 - [ ] **Phase 4: Showcase & Interaction** - Projects, CV download, and contact links
 - [ ] **Phase 5: Polish & Accessibility** - Animations, SEO, accessibility, and performance optimization
 
@@ -64,8 +64,8 @@ Plans:
 
 Plans:
 - [x] 03-01-PLAN.md — TypeScript content interfaces, CV data file, and Hero section with photo placeholder
-- [ ] 03-02-PLAN.md — Experience timeline with vertical layout and all career positions
-- [ ] 03-03-PLAN.md — Skills categorized grid and Education degree listings
+- [x] 03-02-PLAN.md — Experience timeline with vertical layout and all career positions
+- [x] 03-03-PLAN.md — Skills categorized grid and Education degree listings
 
 ### Phase 4: Showcase & Interaction
 **Goal**: Project portfolio and contact mechanisms complete
@@ -103,6 +103,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deployment | 1/1 | Complete | 2026-02-07 |
 | 2. Layout & Navigation | 3/3 | Complete | 2026-02-07 |
-| 3. Core Content | 1/3 | In progress | - |
+| 3. Core Content | 3/3 | Complete | 2026-02-07 |
 | 4. Showcase & Interaction | 0/TBD | Not started | - |
 | 5. Polish & Accessibility | 0/TBD | Not started | - |
