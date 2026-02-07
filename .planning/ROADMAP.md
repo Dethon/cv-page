@@ -60,10 +60,12 @@ Plans:
   2. Experience timeline shows all 6 career positions (Redslim through Universidad de Salamanca) with company, role, dates, and key achievements
   3. Skills section organizes technologies by category (Frontend, Backend, Data/ML, DevOps, Languages) with visual presentation
   4. Education section lists all three degrees from Universidad de Salamanca with correct details
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] TBD (planned during /gsd:plan-phase)
+- [ ] 03-01-PLAN.md — TypeScript content interfaces, CV data file, and Hero section with photo placeholder
+- [ ] 03-02-PLAN.md — Experience timeline with vertical layout and all career positions
+- [ ] 03-03-PLAN.md — Skills categorized grid and Education degree listings
 
 ### Phase 4: Showcase & Interaction
 **Goal**: Project portfolio and contact mechanisms complete
@@ -101,6 +103,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deployment | 1/1 | Complete | 2026-02-07 |
 | 2. Layout & Navigation | 3/3 | Complete | 2026-02-07 |
-| 3. Core Content | 0/TBD | Not started | - |
+| 3. Core Content | 0/3 | Not started | - |
 | 4. Showcase & Interaction | 0/TBD | Not started | - |
 | 5. Polish & Accessibility | 0/TBD | Not started | - |
