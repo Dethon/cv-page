@@ -1,0 +1,18 @@
+/* Skills styles - placeholder for 03-03 plan */
+.skills-grid {
+  display: block;
+}
+
+.skill-category {
+  margin-bottom: 1rem;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-tag {
+  display: inline-block;
+  margin: 0.25rem;
+}
