@@ -10,29 +10,29 @@ See: .planning/PROJECT.md (updated 2026-02-07)
 ## Current Position
 
 Phase: 2 of 5 (Layout & Navigation) — IN PROGRESS
-Plan: 1 of 6 in current phase
+Plan: 2 of 6 in current phase
 Status: In progress
-Last activity: 2026-02-07 — Completed 02-01-PLAN.md (Theme Infrastructure)
+Last activity: 2026-02-07 — Completed 02-02-PLAN.md (Section Components & Navigation)
 
 Progress: [████░░░░░░] 40%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 2
-- Average duration: 3.5 min
-- Total execution time: 0.1 hours
+- Total plans completed: 3
+- Average duration: 3 min
+- Total execution time: 0.2 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1 | 1 | 5 min | 5 min |
-| 2 | 1 | 2 min | 2 min |
+| 2 | 2 | 4 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (5 min), 02-01 (2 min)
-- Trend: Accelerating
+- Last 5 plans: 01-01 (5 min), 02-01 (2 min), 02-02 (2 min)
+- Trend: Consistent
 
 *Updated after each plan completion*
 
@@ -52,6 +52,9 @@ Recent decisions affecting current work:
 - CSS custom properties over CSS-in-JS — Better performance, works without JavaScript (02-01)
 - Inline FOUC prevention script — Prevents flash of wrong theme on load (02-01)
 - Simple hook over Context API — Sufficient for single theme state (02-01)
+- IntersectionObserver over scroll events — More efficient, battery-friendly for scroll-spy (02-02)
+- Hamburger breakpoint at 768px — Standard mobile/tablet breakpoint (02-02)
+- Hero excluded from nav links — Landing section doesn't need nav link, site title provides return-to-top (02-02)
 
 ### Pending Todos
 
@@ -64,5 +67,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-07 (Phase 2 execution)
-Stopped at: Completed 02-01-PLAN.md (Theme Infrastructure)
+Stopped at: Completed 02-02-PLAN.md (Section Components & Navigation)
 Resume file: None
