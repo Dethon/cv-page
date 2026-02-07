@@ -1,0 +1,56 @@
+/* Shared styles for all section components */
+
+.section {
+  padding: 4rem 0;
+  min-height: 50vh;
+}
+
+.section--hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Alternating background colors */
+.section:nth-child(even) {
+  background-color: var(--bg-secondary);
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+}
+
+p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .section {
+    padding: 6rem 0;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+}
