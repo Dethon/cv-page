@@ -44,10 +44,12 @@ Plans:
   3. User can toggle between dark and light mode with preference persisted across sessions
   4. Site responds correctly on mobile (320px+), tablet (768px+), and desktop (1200px+)
   5. Custom 404 page displays when user visits non-existent route
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] TBD (planned during /gsd:plan-phase)
+- [ ] 02-01-PLAN.md — Theme system with dark/light CSS variables, useTheme hook, and FOUC prevention
+- [ ] 02-02-PLAN.md — Section placeholder components and responsive navigation with scroll-spy
+- [ ] 02-03-PLAN.md — App composition, custom 404 page, and visual verification
 
 ### Phase 3: Core Content
 **Goal**: Personal and professional content sections populated with real data
@@ -98,7 +100,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deployment | 1/1 | Complete | 2026-02-07 |
-| 2. Layout & Navigation | 0/TBD | Not started | - |
+| 2. Layout & Navigation | 0/3 | Not started | - |
 | 3. Core Content | 0/TBD | Not started | - |
 | 4. Showcase & Interaction | 0/TBD | Not started | - |
 | 5. Polish & Accessibility | 0/TBD | Not started | - |
