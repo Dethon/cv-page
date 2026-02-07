@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useActiveSection } from '../hooks/useActiveSection';
+import { ThemeToggle } from './ThemeToggle';
 import './Navigation.css';
 
 interface NavSection {
@@ -48,21 +49,24 @@ export function Navigation() {
           <span className="nav__hamburger-line"></span>
         </button>
 
-        <ul className="nav__list">
-          {NAV_SECTIONS.map((section) => (
-            <li key={section.id}>
-              <a
-                href={`#${section.id}`}
-                className={`nav__link ${
-                  activeSection === section.id ? 'nav__link--active' : ''
-                }`}
-                onClick={handleLinkClick}
-              >
-                {section.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className="nav__controls">
+          <ul className="nav__list">
+            {NAV_SECTIONS.map((section) => (
+              <li key={section.id}>
+                <a
+                  href={`#${section.id}`}
+                  className={`nav__link ${
+                    activeSection === section.id ? 'nav__link--active' : ''
+                  }`}
+                  onClick={handleLinkClick}
+                >
+                  {section.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <ThemeToggle />
+        </div>
       </div>
     </nav>
   );
