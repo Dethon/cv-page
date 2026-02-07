@@ -145,7 +145,7 @@
   }
 }
 
-/* Desktop: hide hamburger */
+/* Tablet: hide hamburger */
 @media (min-width: 768px) {
   .nav__hamburger {
     display: none;
@@ -159,5 +159,26 @@
   .nav__list {
     display: flex;
     flex-direction: row;
+  }
+
+  .nav__link {
+    font-size: 0.8125rem;
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+/* Desktop: wider spacing */
+@media (min-width: 1200px) {
+  .nav__inner {
+    padding: 0 2rem;
+  }
+
+  .nav__link {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .nav__title {
+    font-size: 1.25rem;
   }
 }
