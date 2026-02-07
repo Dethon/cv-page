@@ -12,7 +12,7 @@ Transform a professional CV into a modern, polished web presence. Starting with 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation & Deployment** - Project scaffolding with working GitHub Pages pipeline
+- [x] **Phase 1: Foundation & Deployment** - Project scaffolding with working GitHub Pages pipeline
 - [ ] **Phase 2: Layout & Navigation** - Responsive single-page structure with dark mode and navigation
 - [ ] **Phase 3: Core Content** - Hero, experience timeline, skills, and education sections
 - [ ] **Phase 4: Showcase & Interaction** - Projects, CV download, and contact links
@@ -32,7 +32,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Scaffold Vite + React + TypeScript project with GitHub Actions deployment pipeline
+- [x] 01-01-PLAN.md — Scaffold Vite + React + TypeScript project with GitHub Actions deployment pipeline
 
 ### Phase 2: Layout & Navigation
 **Goal**: Responsive single-page structure with navigation and theme support
@@ -97,7 +97,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Deployment | 0/1 | Planned | - |
+| 1. Foundation & Deployment | 1/1 | Complete | 2026-02-07 |
 | 2. Layout & Navigation | 0/TBD | Not started | - |
 | 3. Core Content | 0/TBD | Not started | - |
 | 4. Showcase & Interaction | 0/TBD | Not started | - |
