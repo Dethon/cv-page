@@ -16,10 +16,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Content
 
-- [ ] **CONT-01**: Hero section with name, title, professional summary, and photo placeholder
-- [ ] **CONT-02**: Experience timeline showing career progression (Redslim, NielsenIQ, NTT DATA, GRIAL, Audaspace, Universidad de Salamanca) with company, role, dates, and key achievements
-- [ ] **CONT-03**: Skills section organized by category (Frontend, Backend, Data/ML, DevOps, Languages) with visual presentation
-- [ ] **CONT-04**: Education section with degrees from Universidad de Salamanca (Master's, Bachelor's, Technical Engineering)
+- [x] **CONT-01**: Hero section with name, title, professional summary, and photo placeholder
+- [x] **CONT-02**: Experience timeline showing career progression (Redslim, NielsenIQ, NTT DATA, GRIAL, Audaspace, Universidad de Salamanca) with company, role, dates, and key achievements
+- [x] **CONT-03**: Skills section organized by category (Frontend, Backend, Data/ML, DevOps, Languages) with visual presentation
+- [x] **CONT-04**: Education section with degrees from Universidad de Salamanca (Master's, Bachelor's, Technical Engineering)
 
 ### Showcase & Interaction
 
@@ -32,7 +32,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **TECH-01**: Responsive design working on mobile (320px+), tablet (768px+), and desktop (1200px+)
 - [ ] **TECH-02**: SEO meta tags including Open Graph, Twitter Cards, proper title, and description
-- [ ] **TECH-03**: GitHub Actions workflow auto-deploying to GitHub Pages on push to main branch
+- [x] **TECH-03**: GitHub Actions workflow auto-deploying to GitHub Pages on push to main branch
 - [ ] **TECH-04**: Accessibility compliance — semantic HTML, keyboard navigation, color contrast (4.5:1), alt text, focus indicators
 
 ## v2 Requirements
@@ -77,10 +77,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LAYOUT-02 | Phase 2 | Complete |
 | LAYOUT-03 | Phase 2 | Complete |
 | LAYOUT-04 | Phase 2 | Complete |
-| CONT-01 | Phase 3 | Pending |
-| CONT-02 | Phase 3 | Pending |
-| CONT-03 | Phase 3 | Pending |
-| CONT-04 | Phase 3 | Pending |
+| CONT-01 | Phase 3 | Complete |
+| CONT-02 | Phase 3 | Complete |
+| CONT-03 | Phase 3 | Complete |
+| CONT-04 | Phase 3 | Complete |
 | SHOW-01 | Phase 4 | Pending |
 | SHOW-02 | Phase 4 | Pending |
 | SHOW-03 | Phase 4 | Pending |
@@ -88,6 +88,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | TECH-01 | Phase 2 | Complete |
 | TECH-02 | Phase 5 | Pending |
 | TECH-03 | Phase 1 | Complete |
+
 | TECH-04 | Phase 5 | Pending |
 
 **Coverage:**
