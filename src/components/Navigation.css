@@ -182,3 +182,14 @@
     font-size: 1.25rem;
   }
 }
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .nav__hamburger-line {
+    transition: none;
+  }
+
+  .nav__controls {
+    transition: none;
+  }
+}

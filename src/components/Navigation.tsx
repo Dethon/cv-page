@@ -40,7 +40,7 @@ export function Navigation() {
   };
 
   return (
-    <nav className={`nav ${isMenuOpen ? 'nav--open' : ''}`}>
+    <nav className={`nav ${isMenuOpen ? 'nav--open' : ''}`} aria-label="Primary navigation">
       <div className="nav__inner">
         <a href="#hero" className="nav__title" onClick={handleLinkClick}>
           Juan Francisco Crespo Galan
@@ -50,6 +50,7 @@ export function Navigation() {
           className="nav__hamburger"
           aria-label="Toggle menu"
           aria-expanded={isMenuOpen}
+          aria-controls="nav-controls"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <span className="nav__hamburger-line"></span>
@@ -57,7 +58,7 @@ export function Navigation() {
           <span className="nav__hamburger-line"></span>
         </button>
 
-        <div className="nav__controls">
+        <div id="nav-controls" className="nav__controls">
           <ul className="nav__list">
             {NAV_SECTIONS.map((section) => (
               <li key={section.id}>
