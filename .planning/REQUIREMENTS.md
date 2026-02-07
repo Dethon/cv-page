@@ -23,9 +23,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Showcase & Interaction
 
-- [ ] **SHOW-01**: Curated project cards with description, technology tags, GitHub link, and optional live demo link
-- [ ] **SHOW-02**: Downloadable CV as PDF via one-click download button
-- [ ] **SHOW-03**: Contact links footer with email (JF_Crespo@outlook.es), LinkedIn, and GitHub icons/links
+- [x] **SHOW-01**: Curated project cards with description, technology tags, GitHub link, and optional live demo link
+- [x] **SHOW-02**: Downloadable CV as PDF via one-click download button
+- [x] **SHOW-03**: Contact links footer with email (JF_Crespo@outlook.es), LinkedIn, and GitHub icons/links
 - [ ] **SHOW-04**: Subtle scroll-triggered animations (fade-in, slide-up) as sections enter viewport, respecting prefers-reduced-motion
 
 ### Technical
@@ -81,9 +81,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CONT-02 | Phase 3 | Complete |
 | CONT-03 | Phase 3 | Complete |
 | CONT-04 | Phase 3 | Complete |
-| SHOW-01 | Phase 4 | Pending |
-| SHOW-02 | Phase 4 | Pending |
-| SHOW-03 | Phase 4 | Pending |
+| SHOW-01 | Phase 4 | Complete |
+| SHOW-02 | Phase 4 | Complete |
+| SHOW-03 | Phase 4 | Complete |
 | SHOW-04 | Phase 5 | Pending |
 | TECH-01 | Phase 2 | Complete |
 | TECH-02 | Phase 5 | Pending |

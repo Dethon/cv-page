@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation & Deployment** - Project scaffolding with working GitHub Pages pipeline
 - [x] **Phase 2: Layout & Navigation** - Responsive single-page structure with dark mode and navigation
 - [x] **Phase 3: Core Content** - Hero, experience timeline, skills, and education sections
-- [ ] **Phase 4: Showcase & Interaction** - Projects, CV download, and contact links
+- [x] **Phase 4: Showcase & Interaction** - Projects, CV download, and contact links
 - [ ] **Phase 5: Polish & Accessibility** - Animations, SEO, accessibility, and performance optimization
 
 ## Phase Details
@@ -78,8 +78,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 04-01-PLAN.md — Data layer extensions, project card grid, react-icons install, and PDF setup
-- [ ] 04-02-PLAN.md — Contact footer with social icon links and CV download button
+- [x] 04-01-PLAN.md — Data layer extensions, project card grid, react-icons install, and PDF setup
+- [x] 04-02-PLAN.md — Contact footer with social icon links and CV download button
 
 ### Phase 5: Polish & Accessibility
 **Goal**: Professional quality with animations, SEO, and accessibility compliance
@@ -105,5 +105,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation & Deployment | 1/1 | Complete | 2026-02-07 |
 | 2. Layout & Navigation | 3/3 | Complete | 2026-02-07 |
 | 3. Core Content | 3/3 | Complete | 2026-02-07 |
-| 4. Showcase & Interaction | 0/2 | Not started | - |
+| 4. Showcase & Interaction | 2/2 | Complete | 2026-02-07 |
 | 5. Polish & Accessibility | 0/TBD | Not started | - |
