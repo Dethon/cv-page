@@ -29,10 +29,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. GitHub Actions workflow deploys to GitHub Pages on push to main
   3. Site loads successfully at username.github.io/cv-page (no blank page)
   4. Development environment works with hot module replacement
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] TBD (planned during /gsd:plan-phase)
+- [ ] 01-01-PLAN.md — Scaffold Vite + React + TypeScript project with GitHub Actions deployment pipeline
 
 ### Phase 2: Layout & Navigation
 **Goal**: Responsive single-page structure with navigation and theme support
@@ -97,7 +97,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Deployment | 0/TBD | Not started | - |
+| 1. Foundation & Deployment | 0/1 | Planned | - |
 | 2. Layout & Navigation | 0/TBD | Not started | - |
 | 3. Core Content | 0/TBD | Not started | - |
 | 4. Showcase & Interaction | 0/TBD | Not started | - |
