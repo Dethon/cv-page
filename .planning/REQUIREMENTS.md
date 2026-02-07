@@ -9,10 +9,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Layout & Structure
 
-- [ ] **LAYOUT-01**: Single-page design with scrollable sections (Hero, Experience, Skills, Projects, Education, Contact)
-- [ ] **LAYOUT-02**: Sticky navigation bar with smooth scroll to sections and active section highlighting
-- [ ] **LAYOUT-03**: Dark/light mode toggle with system preference detection and persistence
-- [ ] **LAYOUT-04**: Custom branded 404 error page
+- [x] **LAYOUT-01**: Single-page design with scrollable sections (Hero, Experience, Skills, Projects, Education, Contact)
+- [x] **LAYOUT-02**: Sticky navigation bar with smooth scroll to sections and active section highlighting
+- [x] **LAYOUT-03**: Dark/light mode toggle with system preference detection and persistence
+- [x] **LAYOUT-04**: Custom branded 404 error page
 
 ### Content
 
@@ -30,7 +30,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Technical
 
-- [ ] **TECH-01**: Responsive design working on mobile (320px+), tablet (768px+), and desktop (1200px+)
+- [x] **TECH-01**: Responsive design working on mobile (320px+), tablet (768px+), and desktop (1200px+)
 - [ ] **TECH-02**: SEO meta tags including Open Graph, Twitter Cards, proper title, and description
 - [ ] **TECH-03**: GitHub Actions workflow auto-deploying to GitHub Pages on push to main branch
 - [ ] **TECH-04**: Accessibility compliance — semantic HTML, keyboard navigation, color contrast (4.5:1), alt text, focus indicators
@@ -73,10 +73,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LAYOUT-01 | Phase 2 | Pending |
-| LAYOUT-02 | Phase 2 | Pending |
-| LAYOUT-03 | Phase 2 | Pending |
-| LAYOUT-04 | Phase 2 | Pending |
+| LAYOUT-01 | Phase 2 | Complete |
+| LAYOUT-02 | Phase 2 | Complete |
+| LAYOUT-03 | Phase 2 | Complete |
+| LAYOUT-04 | Phase 2 | Complete |
 | CONT-01 | Phase 3 | Pending |
 | CONT-02 | Phase 3 | Pending |
 | CONT-03 | Phase 3 | Pending |
@@ -85,7 +85,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SHOW-02 | Phase 4 | Pending |
 | SHOW-03 | Phase 4 | Pending |
 | SHOW-04 | Phase 5 | Pending |
-| TECH-01 | Phase 2 | Pending |
+| TECH-01 | Phase 2 | Complete |
 | TECH-02 | Phase 5 | Pending |
 | TECH-03 | Phase 1 | Complete |
 | TECH-04 | Phase 5 | Pending |

@@ -13,7 +13,7 @@ Transform a professional CV into a modern, polished web presence. Starting with 
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Deployment** - Project scaffolding with working GitHub Pages pipeline
-- [ ] **Phase 2: Layout & Navigation** - Responsive single-page structure with dark mode and navigation
+- [x] **Phase 2: Layout & Navigation** - Responsive single-page structure with dark mode and navigation
 - [ ] **Phase 3: Core Content** - Hero, experience timeline, skills, and education sections
 - [ ] **Phase 4: Showcase & Interaction** - Projects, CV download, and contact links
 - [ ] **Phase 5: Polish & Accessibility** - Animations, SEO, accessibility, and performance optimization
@@ -100,7 +100,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deployment | 1/1 | Complete | 2026-02-07 |
-| 2. Layout & Navigation | 3/3 | Not started | - |
+| 2. Layout & Navigation | 3/3 | Complete | 2026-02-07 |
 | 3. Core Content | 0/TBD | Not started | - |
 | 4. Showcase & Interaction | 0/TBD | Not started | - |
 | 5. Polish & Accessibility | 0/TBD | Not started | - |
